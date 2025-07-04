@@ -1,66 +1,96 @@
-# 📑 Automated Report Generation – Python Internship Project
+Internship: CodTech Technologies - Python Internship
+Duration: 5th June - 5th July
 
-This project is part of my Python Internship at **CodTech Technologies** (5th June – 5th July 2025).  
-It demonstrates **automated data analysis** and **PDF report generation** using Python.
 
----
+NAME - CHRYSL SHECKINA THOMAS 
+INTERN ID - CT04DG328 
+DOMAIN - PYTHON PROGRAMMING 
+DURATION - 4 WEEKS 
+MENTOR - MS. NEELA SANTHOSH KUMAR
 
-## 📌 Project Overview
+DESCRIPTION BELOW SCREENSHOTS
 
-**Title:** Automated Report Generation  
-**Objective:**  
-- Read student performance data from a CSV file  
-- Perform analysis and generate visualizations using `pandas` and `matplotlib`  
-- Create a structured, formatted **PDF report** using the `ReportLab` library
+OUTPUT SCREENSHOTS
 
----
+C:\Users\CHRYSL SHECKINA\Pictures\Screenshots\Screenshot 2025-07-04 172002.png
 
-## 🛠️ Tools & Libraries Used
+![alt text](<Screenshot 2025-07-04 172002.png>)
+![alt text](<Screenshot 2025-07-04 171940.png>)
+![alt text](<Screenshot 2025-07-04 171912-1.png>)
+![alt text](<Screenshot 2025-07-04 171839.png>)
+![alt text](<Screenshot 2025-07-04 171823.png>)
+![alt text](<Screenshot 2025-07-04 171736.png>)
+![alt text](<Screenshot 2025-07-04 171701.png>)
 
-- **Python 3.11+**
-- [`pandas`](https://pandas.pydata.org/) – Data analysis  
-- [`matplotlib`](https://matplotlib.org/) – Data visualization  
-- [`ReportLab`](https://www.reportlab.com/) – PDF generation  
 
----
+TITLE: AUTOMATED REPORT GENERATION 
+Develop a script that reads data from a file, analyzes it and generates a formatted pdf report using libraries like FPDF OR REPORTLAB 
+Deliverable: A script and a sample report
 
-## 📊 Features
+Objective: 
+To build a Python script that reads a dataset, performs analysis, creates visualizations, and generates a formatted multi page PDF report using the reportLab library. 
 
-- ✅ Reads dataset (`students_performance.csv`)
-- ✅ Calculates average scores by gender and parental education
-- ✅ Visualizations: bar charts, pie chart, histogram
-- ✅ Automatically generates a multi-page, styled PDF report
-- ✅ Cover page with:
-  - Logo
-  - Internship details
-  - Author name
-- ✅ Key bullet-point insights page
-- ✅ Footer with auto date and page numbers on every page
+This task focused on integrating data processing, statistical analysis , chart creation and professional document formatting using open source libraries. This project closely simulates real world scenarios like generating business reports, academic analysis and automated dashboards -- all in PDF format. 
 
----
 
-## 📁 Files
+Dataset Used:
+The dataset used was the "Students Performance in Exams" dataset sourced from Kaggle. It consists of student level data including gender, parental education levels, scores in math, a reading and writing and whether they completed a test preparation course. 
 
-| File Name               | Description                                  |
-|------------------------|----------------------------------------------|
-| `report_generator.py`  | Main Python script for report generation     |
-| `students_performance.csv` | Input dataset used for analysis         |
-| `logo.png`             | Internship or organization logo              |
-| `generated_report.pdf` | Output PDF report with charts and insights   |
+Technologies used
+ 1. Pandas- data processing
+2. matplotlib - Chart generation
+3. ReportLab- PDF creation
+4. students_performance.csv - Kaggle dataset
+5. logo.png - branded internship logo
+6. Optional: VS code + Git + GitHub for version control
 
----
+Features implemented
 
-## 📷 Sample Report Pages
+1. Cover Page with:
 
-<img src="https://via.placeholder.com/600x300.png?text=Cover+Page" alt="Cover Page Sample" width="600"/>
-<img src="https://via.placeholder.com/600x300.png?text=Data+Visualization+Page" alt="Chart Page Sample" width="600"/>
+- Internship Title, duration, candidate name, and logo branding were dynamically added.
+- Positioned logo using ReportLab's drawImage() function with proper scaling and alignment. 
+- Date added using Python's datetime module.
 
----
+2. Key Insights Page: 
 
-## 📦 How to Run
+- A curated list of 5 major observations from the dataset
+- Included gender based performance, impact of test preps and correlations with education level
 
-1. Install required libraries:
+3. Data Visualization
+- Bar Chart: Average scores by gender in Math, Reading and Writing 
+- Pie chart : Ratio of students who completed vs didn't complete test preparation
+- Histogram: Distribution of math scores
+- Bar Chart by Education: Average scores group by parental education level
+- Grouped bar chart: Math scores compared by gender and test prep completion.
 
-```bash
-pip install pandas matplotlib reportlab
+4. Summary Statistics
+ - Included a stats table with min, max, mean and standard deviation of all subject scores
+
+5. PDF Report Generation
+- Used canvas.Canvas() from ReportLab to generate a multipage PDF
+- Auto-formatted layout, centred titles, consistent margins
+- Page footer with generation date and automatic page numbers
+- Chart images embedded directly into pages using drawImage()
+
+Challenges and Solutions
+
+1. Chart Overlap and layout Issues: Resolved using precise positioning and aspect ratio control.
+2. Text Wrapping: Handled using ReportLab's drawstring() and manual spacing logic.
+3. Image readability: Used tight_layout in matplotlib and standardized figure size
+
+Learning Outcomes: 
+
+- Gaining practical experience with the end to end pipeline data to report
+- Learned th internals of programmatic PDF generation and canvas based drawing
+- Improved analytical thinking and storytelling with data
+- Applied visualization best practices using real world data
+- Strengthened understanding of modular coding and file management for automation
+
+Conclusion:
+This task was a comprehensive introduction to automating business intelligence workflows using Python. By combining data processing, statistical summaries and visual storytelling into a deliverable PDF, this project reflected the power of Python in professional reporting. It demonstrated skills that are relevant in fields like data science, analytics and education and enterprise documentation. 
+
+The script is reusable and can be adapted to different datasets, making it a flexible solution for data reporting needs. The final product - generated_report.pdf - presents the information in a clear, concise and well organized format suitable for sharing or submission. 
+
+
 
