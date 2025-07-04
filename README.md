@@ -7,21 +7,20 @@ Intern ID: CT04DG328
 Domain: Python Programming  
 Mentor: Ms. Neela Santhosh Kumar
 
----
-
-Output Screenshots
 
 
+OUTPUT SCREENSHOTS
 
-![Cover Page](Screenshot%202025-07-04%20172002.png)  
-![Stats Table](Screenshot%202025-07-04%20171940.png)  
-![Bar Chart: Gender Performance](Screenshot%202025-07-04%20171912-1.png)  
-![Pie Chart: Test Prep](Screenshot%202025-07-04%20171839.png)  
-![Histogram: Math Scores](Screenshot%202025-07-04%20171823.png)  
-![Education vs Scores](Screenshot%202025-07-04%20171736.png)  
-![Grouped Bar: Gender vs Test Prep](Screenshot%202025-07-04%20171701.png)
+![Cover Page](images/Screenshot%202025-07-04%20172002.png)  
+![Stats Table](images/Screenshot%202025-07-04%20171940.png)  
+![Bar Chart: Gender Performance](images/Screenshot%202025-07-04%20171912-1.png)  
+![Pie Chart: Test Prep](images/Screenshot%202025-07-04%20171839.png)  
+![Histogram: Math Scores](images/Screenshot%202025-07-04%20171823.png)  
+![Education vs Scores](images/Screenshot%202025-07-04%20171736.png)  
+![Grouped Bar: Gender vs Test Prep](images/Screenshot%202025-07-04%20171701.png)
 
----
+
+
 
 Title: Automated Report Generation
 
