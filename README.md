@@ -1,96 +1,109 @@
-Internship: CodTech Technologies - Python Internship
-Duration: 5th June - 5th July
+ 🧾 Task 2: Automated Report Generation
+
+ Internship: CodTech Technologies - Python Internship  
+Duration: 5th June – 5th July 2025  
+Name:CHRYSL SHECKINA THOMAS  
+Intern ID: CT04DG328  
+Domain: Python Programming  
+Mentor: Ms. Neela Santhosh Kumar
+
+---
+
+Output Screenshots
 
 
-NAME - CHRYSL SHECKINA THOMAS 
-INTERN ID - CT04DG328 
-DOMAIN - PYTHON PROGRAMMING 
-DURATION - 4 WEEKS 
-MENTOR - MS. NEELA SANTHOSH KUMAR
 
-DESCRIPTION BELOW SCREENSHOTS
+![Cover Page](Screenshot%202025-07-04%20172002.png)  
+![Stats Table](Screenshot%202025-07-04%20171940.png)  
+![Bar Chart: Gender Performance](Screenshot%202025-07-04%20171912-1.png)  
+![Pie Chart: Test Prep](Screenshot%202025-07-04%20171839.png)  
+![Histogram: Math Scores](Screenshot%202025-07-04%20171823.png)  
+![Education vs Scores](Screenshot%202025-07-04%20171736.png)  
+![Grouped Bar: Gender vs Test Prep](Screenshot%202025-07-04%20171701.png)
 
-OUTPUT SCREENSHOTS
+---
 
-C:\Users\CHRYSL SHECKINA\Pictures\Screenshots\Screenshot 2025-07-04 172002.png
+Title: Automated Report Generation
 
-![alt text](<Screenshot 2025-07-04 172002.png>)
-![alt text](<Screenshot 2025-07-04 171940.png>)
-![alt text](<Screenshot 2025-07-04 171912-1.png>)
-![alt text](<Screenshot 2025-07-04 171839.png>)
-![alt text](<Screenshot 2025-07-04 171823.png>)
-![alt text](<Screenshot 2025-07-04 171736.png>)
-![alt text](<Screenshot 2025-07-04 171701.png>)
+Objective:  
+To build a Python script that reads a dataset, performs analysis, creates visualizations, and generates a formatted multi-page PDF report using the ReportLab library.
 
+This task focused on integrating data processing, statistical analysis, chart creation, and professional document formatting using open-source libraries. It closely simulates real-world scenarios like generating business reports, academic analysis, and automated dashboards — all in PDF format.
 
-TITLE: AUTOMATED REPORT GENERATION 
-Develop a script that reads data from a file, analyzes it and generates a formatted pdf report using libraries like FPDF OR REPORTLAB 
-Deliverable: A script and a sample report
-
-Objective: 
-To build a Python script that reads a dataset, performs analysis, creates visualizations, and generates a formatted multi page PDF report using the reportLab library. 
-
-This task focused on integrating data processing, statistical analysis , chart creation and professional document formatting using open source libraries. This project closely simulates real world scenarios like generating business reports, academic analysis and automated dashboards -- all in PDF format. 
-
+---
 
 Dataset Used:
-The dataset used was the "Students Performance in Exams" dataset sourced from Kaggle. It consists of student level data including gender, parental education levels, scores in math, a reading and writing and whether they completed a test preparation course. 
 
-Technologies used
- 1. Pandas- data processing
-2. matplotlib - Chart generation
-3. ReportLab- PDF creation
-4. students_performance.csv - Kaggle dataset
-5. logo.png - branded internship logo
-6. Optional: VS code + Git + GitHub for version control
+Name:Students Performance in Exams  
+Source:Kaggle  
+This dataset contains student-level data including gender, parental education levels, math/reading/writing scores, and whether they completed a test preparation course.
 
-Features implemented
+---
 
-1. Cover Page with:
+Technologies Used:
 
-- Internship Title, duration, candidate name, and logo branding were dynamically added.
-- Positioned logo using ReportLab's drawImage() function with proper scaling and alignment. 
-- Date added using Python's datetime module.
+1. Pandas– Data processing  
+2. matplotlib – Chart generation  
+3. ReportLab– PDF creation  
+4. students_performance.csv– Kaggle dataset  
+5. logo.png– Branded internship logo  
+6. VS Code + Git + GitHub– Version control and collaboration
 
-2. Key Insights Page: 
+---
 
-- A curated list of 5 major observations from the dataset
-- Included gender based performance, impact of test preps and correlations with education level
+Features Implemented:
 
-3. Data Visualization
-- Bar Chart: Average scores by gender in Math, Reading and Writing 
-- Pie chart : Ratio of students who completed vs didn't complete test preparation
-- Histogram: Distribution of math scores
-- Bar Chart by Education: Average scores group by parental education level
-- Grouped bar chart: Math scores compared by gender and test prep completion.
+Cover Page
+- Includes internship title, duration, candidate name, and logo branding.
+- Logo added using `drawImage()` with scaling and alignment.
+- Date generated using Python's `datetime` module.
 
-4. Summary Statistics
- - Included a stats table with min, max, mean and standard deviation of all subject scores
+Key Insights Page
+- Summary of 5 key observations from the dataset.
+- Gender-based performance, test prep impact, education level influence.
 
-5. PDF Report Generation
-- Used canvas.Canvas() from ReportLab to generate a multipage PDF
-- Auto-formatted layout, centred titles, consistent margins
-- Page footer with generation date and automatic page numbers
-- Chart images embedded directly into pages using drawImage()
+Data Visualizations
+- Bar Chart: Average scores by gender (Math, Reading, Writing)
+- Pie Chart: Test preparation course completion ratio
+- Histogram: Math score distribution
+- Bar Chart: Scores by parental education level
+- Grouped Bar Chart: Gender vs Test Prep comparison
 
-Challenges and Solutions
+Summary Statistics
+- Table with min, max, mean, and standard deviation of all scores.
 
-1. Chart Overlap and layout Issues: Resolved using precise positioning and aspect ratio control.
-2. Text Wrapping: Handled using ReportLab's drawstring() and manual spacing logic.
-3. Image readability: Used tight_layout in matplotlib and standardized figure size
+PDF Report Generation
+- Used `canvas.Canvas()` to generate a multi-page report.
+- Titles centered, margins consistent.
+- Footer with date and page numbers.
+- Embedded chart images using `drawImage()`.
 
-Learning Outcomes: 
+---
 
-- Gaining practical experience with the end to end pipeline data to report
-- Learned th internals of programmatic PDF generation and canvas based drawing
-- Improved analytical thinking and storytelling with data
-- Applied visualization best practices using real world data
-- Strengthened understanding of modular coding and file management for automation
+Challenges and Solutions:
+
+- Chart Overlap/Layout Issues – Solved using `tight_layout()` and fixed positions.
+- Text Wrapping– Managed manually with string drawing logic.
+- Image Clarity– Standardized figure sizes and aspect ratios.
+
+---
+
+Learning Outcomes:
+
+- Practical experience with data-to-report pipeline  
+- Learned internals of PDF generation using ReportLab  
+- Strengthened data storytelling skills  
+- Gained confidence in modular scripting and file management  
+- Understood visualization techniques and chart selection
+
+---
 
 Conclusion:
-This task was a comprehensive introduction to automating business intelligence workflows using Python. By combining data processing, statistical summaries and visual storytelling into a deliverable PDF, this project reflected the power of Python in professional reporting. It demonstrated skills that are relevant in fields like data science, analytics and education and enterprise documentation. 
 
-The script is reusable and can be adapted to different datasets, making it a flexible solution for data reporting needs. The final product - generated_report.pdf - presents the information in a clear, concise and well organized format suitable for sharing or submission. 
+This task provided a comprehensive foundation in automating data-driven reporting using Python. By combining data processing, analysis, and visualization into a well-formatted PDF, this project reflects skills used in real-world data science, education, and enterprise reporting.
 
+The script is reusable and adaptable to different datasets, making it a flexible reporting solution.  
+The final product — `generated_report.pdf` — presents insights in a clear, professional format suitable for submission, sharing, or business use.
 
+---
 
